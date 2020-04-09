@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    /* font-family: 'UnifrakturCook', cursive; */
+    font-size: 3rem;
+    background-color: rgba(97, 130, 241, 0.527);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267);
+}
+
+body {
+    background-color: rgb(76, 79, 248);
+    /* display: grid;*/
+    /* grid-template-columns: 50% 50%;  */
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+#leftSide {
+    float: left;
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+#rightSide {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(227, 203, 241);
+}
+
+img {
+    align-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.726);
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(227, 203, 241);
+    border-radius: 10px;
+    
+    font-size: 2rem;
+}
+
+button {
+   
+    font-size: 20px;
+    color: rgb(6, 33, 65);
+    background-color: rgb(162, 142, 218);
+}
