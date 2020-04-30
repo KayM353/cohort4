@@ -1,0 +1,29 @@
+
+ body {
+    background-image: url("https://soulgeniusbranding.com/wp-content/uploads/2018/10/Piggy-Bank.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+
+ .boxed {
+    text-align: center;
+  }
+
+
+ .header {
+    padding: 5px;
+    background: transparent;
+    color: rgb(3, 111, 126);
+    text-align: left;
+    font-size: 30px;
+  }
+
+
+  text.impact {
+    font-family: Impact, Charcoal, sans-serif;
+  }
+
