@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <div class="topnav">
+        <a class="active" href="sign">Sign Off</a>
+        <a href="#contact">Contact Us</a>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="midnav">
+        <a href="#meet">Meet with us</a>
+        <a href="#messages">Messages</a>
+        <a href="#bank">Banking</a>
+        <a href="#invest">Investing</a>
+        <a href="#product">Products</a>
+    </div>
+
+
+    <div class="header">
+        <h1>Bank of L&R</h1>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <ul class="demo"></ul>
+            <div class="midnav">
+                <a href="#accounts">My Accounts</a> <br>
+                <a href="#bill">Bill Payments</a><br>
+                <a href="#transfer">Transfer Funds</a><br>
+                <a href="#etransfer">Interac e-Transfers</a><br>
+                <a href="#order">Order Foreign Money</a><br>
+                <a href="#gold">Buy Gold and Silver</a><br>
+                <a href="#customer">Customer Servicess</a><br>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column right"> 
+            <div id="newAccount">
+                <h1>New Account</h1>
+                Account Name: <input id="accountName" type="text"><br>
+                Initial Deposit: <input id="initialDeposit" type="number"><br>
+                <button id="createAccount">Add Account</button>
+            </div><br> <br>
+            <div id="updateAccount">
+
+                Select Account <select id="dropdownID" name="dropdown">
+                    <option selected="">Select</option>
+                </select> <br> <br>
+                <input id="update" type="number">
+                <button id="deposit">Deposit</button>
+                <button id="withdraw">Withdraw</button>
+
+                <br> <br>
+                <h2>Accounts and Balances</h2>
+                <div id="showBalanceID" class="clCard">
+                    Bank of L&R is here for all your Banking Needs!
+                </div>
+                <br><br>
+                <div id="arrayTasks">
+                    <button id='sumArr'>Total Value of Accounts</button>
+                    <button id="lowest">Lowest Value Account</button>
+                    <button id="biggest">Highest Value Account</button>
+                    <p id="messageArea"></p>
+                </div>
+            </div><br>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
