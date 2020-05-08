@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-image: url("https://motaen.com/upload/wallpapers/source/2016/11/21/11/05/50873/mota.ru_20161121234.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+  }
+  
+
+  ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    color: #265326;
+  }
+
+  
+/*  --------- top nav -------------*/
+  .topnav {
+    overflow: hidden;
+    background-color:#265326;
+  }
+  
+  .topnav a {
+    float: right;
+    color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(146, 235, 165);
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+/*  --------- mid nav -------------*/
+
+  .midnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .midnav a {
+    float: right;
+    color: #265326;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+  }
+  
+  .midnav a:hover {
+    background-color: #265326;
+    color: #ffffff;
+    
+  }
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: left;
+    background: transparent;
+    color: #265326;
+    font-size: 30px;
+  }
